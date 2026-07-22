@@ -1,6 +1,7 @@
 name: Workflow de Integração Contínua
 
 on:
+  workflow_dispatch:
   pull_request:
     branches: [ "main" ]
 
